@@ -75,8 +75,8 @@ module stork::state {
             version,
         }
     }
-
-    public(package) fun share(stork_state: StorkState) {
+  
+    public fun share(stork_state: StorkState) {
         transfer::share_object(stork_state)
     }
 
