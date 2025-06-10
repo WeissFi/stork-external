@@ -39,7 +39,7 @@ module stork::state {
 
     // === Functions ===
     
-    public(package) fun new(
+    public fun new(
         stork_sui_address: address,
         stork_evm_public_key: vector<u8>,
         single_update_fee_in_mist: u64,
